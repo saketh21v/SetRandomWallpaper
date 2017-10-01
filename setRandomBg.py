@@ -9,7 +9,7 @@ import random
 print ("Initializing")
 img_url = "https://unsplash.it/1920/1080/?random"
 img_name = str(int((random.random()*10**5)))+".jpg" 
-img_path = "C:\\Users\\vishg\\Documents\\git\\SetRandomWallpaper\\"+img_name
+img_path = os.getcwd()+"\\"+img_name
 
 
 
